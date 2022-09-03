@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="sys_array_rst_ps7_0_50M_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_clk_wiz_0_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_proc_sys_reset_0_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="sys_array_rst_ps7_0_50M_0_synth_1"/>
+	</Run>
+	<Run Id="sys_array_auto_pc_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_MbyNMultiplier_0_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_MbyNMultiplier_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_scatter_0_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_scatter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_processing_system7_0_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_axi_gpio_0_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_axi_gpio_1_1_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_axi_gpio_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sys_array_axi_gpio_1_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_axi_gpio_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="sys_array_axi_gpio_1_1_synth_1"/>
+	</Run>
+	<Run Id="sys_array_axi_gpio_2_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_axi_gpio_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="sys_array_axi_gpio_1_1_synth_1"/>
+	</Run>
+	<Run Id="sys_array_axi_gpio_3_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_axi_gpio_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="sys_array_axi_gpio_1_1_synth_1"/>
+	</Run>
+	<Run Id="sys_array_xbar_0_synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/sys_array_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="sys_array_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="sys_array_clk_wiz_0_0_synth_1"/>
+		<Parent Id="sys_array_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="sys_array_auto_pc_0_synth_1"/>
+		<Parent Id="sys_array_MbyNMultiplier_0_0_synth_1"/>
+		<Parent Id="sys_array_scatter_0_0_synth_1"/>
+		<Parent Id="sys_array_processing_system7_0_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_0_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_1_1_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_1_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_2_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_3_0_synth_1"/>
+		<Parent Id="sys_array_xbar_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/Jerin/Vivado2020/multiplier_mxn_test/multiplier_mxn_test.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+		<Parent Id="sys_array_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="sys_array_clk_wiz_0_0_synth_1"/>
+		<Parent Id="sys_array_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="sys_array_auto_pc_0_synth_1"/>
+		<Parent Id="sys_array_MbyNMultiplier_0_0_synth_1"/>
+		<Parent Id="sys_array_scatter_0_0_synth_1"/>
+		<Parent Id="sys_array_processing_system7_0_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_0_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_1_1_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_1_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_2_0_synth_1"/>
+		<Parent Id="sys_array_axi_gpio_3_0_synth_1"/>
+		<Parent Id="sys_array_xbar_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
